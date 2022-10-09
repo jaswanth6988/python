@@ -1,0 +1,170 @@
+# Python program to demonstrate 
+# Creation of List 
+
+# Creating a List 
+
+List = [] 
+
+print("Blank List: ") 
+print(List) 
+
+# Creating a List of numbers 
+
+List = [69, 88, 96] 
+
+print("\nList of numbers: ") 
+print(List) 
+
+# Creating a List of strings and accessing 
+# using index 
+
+List = ["lpua", "lpub", "lpuc"] 
+
+print("\nList Items: ") 
+print(List[0]) 
+print(List[2])
+
+# list 
+
+list = [ 10, 20, 30, 40, 50, 60] 
+
+print("Original list ") 
+print(list) 
+print("After incrementing each element of list by 2")   
+
+# adding 2 to each value of list 
+# len method to calculate length of list 
+# range method is used to go upto a certain range 
+
+for i in range( len(list)): 
+
+    list[i] = list[i] + 2
+print(list)
+
+#add list items
+
+list=['apple','banana','mango']
+list.append("grapes")
+print(list)
+
+#removing the items
+
+list=['apple','banana','mango']
+list.pop(2)
+print(list)
+
+#changing list items
+
+list=['apple','banana','mango']
+list[1]='orange'
+print(list)
+
+# Booleans
+
+# True or False bool
+
+
+print(88 > 69)
+print(88 == 69)
+print(88 < 69)
+
+
+# bool(expression) will return either true or false
+
+#print(bool('goodbye'))
+#print(bool(88))
+
+# In witch case values are true 
+
+#Almost any kind value will in true, if it has some content
+# any string passed is true exept empty string
+# any number passed is true exept 0
+#Any list, tuple, dictionary will result in true exept the empty ones 
+
+print(bool('goodbye'))
+print(bool(88))
+print(bool(['salman' , 'deepika']))
+
+print(bool(False))
+print(bool(None))
+print(bool(0))
+print(bool(~~))
+print(bool(()))
+print(bool([]))
+print(bool({}))
+
+# Python program 
+# string slicing
+ 
+# String slicing
+String = 'ASTRING'
+ 
+# Using slice constructor
+
+s1 = slice(10)
+s2 = slice(10, 20, 30)
+s3 = slice(-10, -20, -30)
+print(& quot String slicing & quot)
+print(String[s1])
+print(String[s2])
+print(String[s3])
+
+
+# Negitve index of Element
+# using index of Element
+# initializing list
+
+my_list = [69, 88, 96, 222, 363,455,601]
+ 
+# printing original list
+
+print("The original list is : " + str(my_list))
+ 
+# initializing Element
+
+p = 69
+# getting length using len() and subtracting index from it
+res = len(my_list) - my_list.index(p)
+ 
+# printing result 
+
+print("The required Negative index)
+
+# Python code to demonstrate 
+# Replace substring in list of strings 
+# using list comprehension + replace() 
+
+  
+# initializing list  
+
+my_list = ['69', 'ph', 'butter', 'fun', '88', 'ducks'] 
+
+  
+# printing original list   
+
+print("The original list : " + str(my_list )) 
+
+# using list comprehension + replace() 
+# Replace substring in list of strings 
+
+res = [sub.replace('69', '96') for sub in my_list] 
+
+# print result 
+
+print("The list after substring replacement : " + str(res))
+
+l = [ '10', '20', '30', '40', '50', '60']
+ 
+lpu = ' '
+
+for i in  69: 
+
+ # concatenating the strings
+ # using + operator
+
+ lpu = lpu+ ' '+ i
+
+ print(lpu)
+
+
+
