@@ -3,7 +3,6 @@
 # to reduce size of prime array to half and
 # reducing iterations.
 
-
 def bitwiseSieve(srt, n):
 
     # prime[i] is going to store
