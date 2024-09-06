@@ -3,6 +3,4 @@
 3. big break gonna start soon
 4.
 5.
-6.
 
- 
